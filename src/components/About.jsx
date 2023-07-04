@@ -49,11 +49,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Full Stack software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, MongoDB and
-        Express.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am experienced <b>Software Engineer</b> working with people around the world to create stunning, fast and scalable scripts to automate different data intesive task and Data pipelines. I'm known for my <b>enthusiasm, observation</b> and <b>hard work. </b>
+        I am always <b>eager to learn new things</b>, ready to help people if they stuck some where and not ashmed to ask for help as well.
+        Coming to <b>teaching</b>, I am on a mission to make DSA everyone's cup of tea mainly for new comers so that they can ace the technical interviews.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
