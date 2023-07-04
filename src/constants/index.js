@@ -121,11 +121,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Chaldal",
-    icon: starbucks,
+    title: "System Engineer",
+    company_name: "Tata Consultancy Services Ltd.",
+    icon: tcs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2019 - June 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -134,37 +134,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
-    company_name: "10 Minute School",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Capgemini Technology Services Ltd.",
+    icon: capgemini,
     iconBg: "#E6DEDD",
-    date: "April 2021 - Sep 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shikho",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Oct 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "MERN Stack Developer",
-    company_name: "Pathao",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2022 - Current",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
