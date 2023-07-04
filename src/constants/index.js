@@ -23,6 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+  capgemini,
+  tcs,
+  sql,
+  cpp,
+  python,
+  bash,
+  airflow,
+  gcp,
+  jenkins,
+  jira,
+  linux,
+  looker,
+  spark,
 } from "../assets";
 
 export const navLinks = [
@@ -42,75 +55,67 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React.js Developer",
+    title: "Data Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Full Stack Developer",
+    title: "Teacher",
     icon: creator,
   },
+  {
+    title: "Aspire to be Backend Developer",
+    icon: backend,
+  },  
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Sql",
+    icon: sql,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Bash",
+    icon: bash,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Spark",
+    icon: spark,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Airflow",
+    icon: airflow,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "GCP",
+    icon: gcp,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Looker",
+    icon: looker,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

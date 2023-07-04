@@ -23,7 +23,14 @@ import threejs from "./tech/threejs.svg";
 import bash from "./tech/bash.png";
 import cpp from "./tech/cpp.png";
 import sql from "./tech/sql.png";
-import python from "./tech/python.png"
+import python from "./tech/python.png";
+import airflow from "./tech/airflow.png";
+import gcp from "./tech/gcp.png";
+import jenkins from "./tech/jenkins.png";
+import jira from "./tech/jenkins.png";
+import linux from "./tech/linux.png";
+import looker from "./tech/looker.png";
+import spark from "./tech/spark.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -72,4 +79,11 @@ export {
   cpp,
   python,
   sql,
+  airflow,
+  gcp,
+  jenkins,
+  jira,
+  linux,
+  looker,
+  spark,
 };
