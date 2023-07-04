@@ -32,10 +32,6 @@ import linux from "./tech/linux.png";
 import looker from "./tech/looker.png";
 import spark from "./tech/spark.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import capgemini from "./company/capgemini.png"
 import tcs from "./company/tcs.png"
 
