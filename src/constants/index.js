@@ -104,7 +104,7 @@ const technologies = [
   {
     name: "Jira",
     icon: jira,
-  },
+  }
 ];
 
 const experiences = [
