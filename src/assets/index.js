@@ -30,7 +30,7 @@ import jenkins from "./tech/jenkins.png";
 import jira from "./tech/jenkins.png";
 import linux from "./tech/linux.png";
 import looker from "./tech/looker.png";
-import spark from "./tech/spark.png";
+import spark from "./tech/spark.png"
 
 import capgemini from "./company/capgemini.png"
 import tcs from "./company/tcs.png"
@@ -62,10 +62,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
