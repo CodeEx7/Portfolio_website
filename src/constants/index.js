@@ -4,9 +4,6 @@ import {
   creator,
   web,
   git,
-  carrent,
-  jobit,
-  tripguide,
   capgemini,
   tcs,
   sql,
@@ -20,10 +17,7 @@ import {
   linux,
   looker,
   spark,
-  airflow_dag,
   browser_img,
-  looker_studio,
-  no_github,
   no_image,
   resume_page
 } from "../assets";
