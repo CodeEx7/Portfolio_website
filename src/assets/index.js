@@ -32,6 +32,7 @@ import linux from "./tech/linux.png";
 import looker from "./tech/looker.png";
 import spark from "./tech/spark.png"
 
+
 import capgemini from "./company/capgemini.png"
 import tcs from "./company/tcs.png"
 
@@ -39,6 +40,9 @@ import browser from "./backend.png"
 import no_image from "./no_image.png"
 import resume_page from "./resume_page.png"
 import browser_img from "./browser_img.png"
+import gmail from "./gmail.png"
+import leetcode from "./leetcode.png"
+import linkedin from "./linkedln.png"
 
 
 export {
@@ -78,5 +82,8 @@ export {
   spark,
   browser_img,
   no_image,
-  resume_page
+  resume_page,
+  gmail,
+  leetcode,
+  linkedin
 };
