@@ -20,6 +20,12 @@ import {
   linux,
   looker,
   spark,
+  airflow_dag,
+  browser_img,
+  looker_studio,
+  no_github,
+  no_image,
+  resume_page
 } from "../assets";
 
 export const navLinks = [
@@ -175,7 +181,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: carrent,
+    image: looker_studio,
     source_code_link: "NA",
   },
   {
@@ -188,7 +194,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: jobit,
+    image: no_image,
     source_code_link: "NA",
   },
   {
@@ -201,7 +207,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: tripguide,
+    image: airflow_dag,
     source_code_link: "NA",
   },
   {
@@ -214,7 +220,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: tripguide,
+    image: airflow_dag,
     source_code_link: "NA",
   },
   {
@@ -227,7 +233,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: tripguide,
+    image: no_image,
     source_code_link: "NA",
   },
   {
@@ -240,7 +246,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: no_image,
     source_code_link: "NA",
   },
   {
@@ -253,7 +259,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: tripguide,
+    image: browser_img,
     source_code_link: "https://github.com/CodeEx7/Strange_project/blob/main/Wolfy.py",
   },
   {
@@ -266,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: resume_page,
     source_code_link: "https://github.com/CodeEx7/Resume-Bhushan",
   },
 ];
