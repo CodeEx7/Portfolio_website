@@ -202,3 +202,18 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 75%;
+  background-color: rgb(3, 35, 104);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
