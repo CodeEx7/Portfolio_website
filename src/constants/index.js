@@ -4,9 +4,6 @@ import {
   creator,
   web,
   git,
-  carrent,
-  jobit,
-  tripguide,
   capgemini,
   tcs,
   sql,
@@ -20,6 +17,9 @@ import {
   linux,
   looker,
   spark,
+  browser_img,
+  no_image,
+  resume_page
 } from "../assets";
 
 export const navLinks = [
@@ -115,10 +115,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2019 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a developer in a data migration project in which 700+ servers and services had been migrated and managed by me.",
+      "Developed a script using Python to fetch the server's full details in a single page from which reduces details fetching time by more than 25%.",
+      "Worked on Private cloud where i managed different services and IAM for same services.",
+      "Mentored 3 new recruits in my project.",
+      "Skills Used: Python, GIT, Jenkins, Ericsson Cloud, Linux, JIRA, Grafana.",
     ],
   },
   {
@@ -128,10 +129,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working as a software developer for HSBC Core in Data Engineering project.",
+      "Developing scripts using python for testing of Big Query data tables and managing the base code to handle various source data with various updates.",
+      "Created 5+ Automation project which are currently in production.",
+      "Skills Used: Python, PySpark, SQL, Shell, Google Cloud, GIT, Jenkins, JIRA.",
     ],
   },
 ];
@@ -165,88 +166,108 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Data studio dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created a Looker dashboards from scratch for coming file to bucket vs unpacking files in bigquery. Currently available for 350+ users to check the detail.",
     tags: [
       {
-        name: "react",
+        name: "Python #Looker_studio #BigQuery #Airflow #VScode.",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/iamhasanhabib",
+    image: no_image,
+    source_code_link: "NA",
   },
   {
-    name: "Job IT",
+    name: "Backup and Restore",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created scripts for backup and restore of the big query tables using shell, using airflow automated the backup.	Currently taking backup for all 9 core projects in AMG and Restore DAG is available across all teams to use.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Shell #Python #Airflow #BigQuery",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/iamhasanhabib",
+    image: no_image,
+    source_code_link: "NA",
   },
   {
-    name: "Trip Guide",
+    name: "Airflow DAG to create Bucket/Dataset",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created a python project to create dataset/bucket in GCP with CMEK key to reduce the Total Privileged Access Management.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python #Airflow #GCP",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/iamhasanhabib",
+    image: no_image,
+    source_code_link: "NA",
   },
   {
-    name: "Test Drive",
+    name: "Airflow DAG to run bigquery",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created a python project to run the bigquery using DAG instead of console to reduce the Total Privileged Access Management.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Python #Airflow #GCP",
         color: "green-text-gradient",
-      },
+      }
+    ],
+    image: no_image,
+    source_code_link: "NA",
+  },
+  {
+    name: "Copy data from prod to dev bigquery",
+    description:
+      "Created a python project to get the data from bigquery to gcp bucket in csv in prod. then using jenkins pipeline moved data from prod to dev environment.",
+    tags: [
       {
-        name: "css",
+        name: "Python #Airflow #Jenkins #GCP",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: no_image,
+    source_code_link: "NA",
+  },
+  {
+    name: "API to Bigquery",
+    description:
+      "This was a POC of production level code to dump the json data coming from api to bigquery using python script",
+    tags: [
+      {
+        name: "Python #GCP #Postman #VScode",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/iamhasanhabib",
+    image: no_image,
+    source_code_link: "NA",
+  },
+  {
+    name: "Wolfy_the_Browser",
+    description:
+      "Created Browser using Python and PyQt5 module..",
+    tags: [
+      {
+        name: "Python, PyQt5",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: browser_img,
+    source_code_link: "https://github.com/CodeEx7/Strange_project/blob/main/Wolfy.py",
+  },
+  {
+    name: "Static Portfolio page",
+    description:
+      "Created Static portfolio project using HTML, CSS and JavaScript.",
+    tags: [
+      {
+        name: "Javascript #HTML #CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resume_page,
+    source_code_link: "https://github.com/CodeEx7/Resume-Bhushan",
   },
 ];
 

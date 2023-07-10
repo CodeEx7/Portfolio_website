@@ -35,9 +35,10 @@ import spark from "./tech/spark.png"
 import capgemini from "./company/capgemini.png"
 import tcs from "./company/tcs.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import browser from "./backend.png"
+import no_image from "./no_image.png"
+import resume_page from "./resume_page.png"
+import browser_img from "./browser_img.png"
 
 
 export {
@@ -62,9 +63,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   capgemini,
   tcs,
   bash,
@@ -78,4 +76,7 @@ export {
   linux,
   looker,
   spark,
+  browser_img,
+  no_image,
+  resume_page
 };
