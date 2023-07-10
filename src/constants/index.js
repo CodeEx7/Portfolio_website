@@ -181,7 +181,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: looker_studio,
+    image: no_image,
     source_code_link: "NA",
   },
   {
@@ -207,7 +207,7 @@ const projects = [
         color: "blue-text-gradient",
       }
     ],
-    image: airflow_dag,
+    image: no_image,
     source_code_link: "NA",
   },
   {
@@ -220,7 +220,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: airflow_dag,
+    image: no_image,
     source_code_link: "NA",
   },
   {
