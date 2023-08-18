@@ -28,7 +28,7 @@ const Navbar = () => {
   const handleNavLinkClick = (nav) => {
     setActive(nav.title);
     if (nav.id === "resume") {
-      window.open("https://drive.google.com/file/d/114A5R-xfvka_YMz0wtq4iXj19JHG5rSL/view?usp=drive_link", "_blank");
+      window.open("https://drive.google.com/file/d/1i2CAJvNKYT93ms04BAm3Mv2V3e7Olw_C/view?usp=drive_link", "_blank");
     }
   };
 
